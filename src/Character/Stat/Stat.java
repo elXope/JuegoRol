@@ -22,6 +22,6 @@ public abstract class Stat {
 
     @Override
     public String toString() {
-        return this.getClass().getSimpleName() + ": " + getValue();
+        return this.getClass().getSimpleName();
     }
 }

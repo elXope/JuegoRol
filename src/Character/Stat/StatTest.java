@@ -55,10 +55,10 @@ class StatTest {
         Stat[] arr = {cons, dex, intel, stren};
 
         String[] test = {
-                "Constitution: 0",
-                "Dexterity: 3",
-                "Intelligence: -2",
-                "Strength: 100"
+                "Constitution",
+                "Dexterity",
+                "Intelligence",
+                "Strength"
         };
         for (int i = 0; i < arr.length; i++) {
             assertEquals(test[i], arr[i].toString());

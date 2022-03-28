@@ -1,8 +1,8 @@
-package Character.Race;
+package Character.Job;
 
 import Character.Stat.Stat;
 
-public abstract class Race {
+public abstract class Job {
     public abstract int modifier(Stat stat);
 
     @Override
